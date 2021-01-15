@@ -1,0 +1,44 @@
+/*
+https://coolors.co/f5e3e0-e8b4bc-d282a6-6e4555-3a3238
+*/
+
+/* Gloabl styles
+--------------------- */
+body {
+  color: #3A3238;
+}
+
+img {
+  width: 300px;
+}
+
+
+/* Profile
+--------------------- */
+header {
+  background: #6E4555;
+  color: #F7FFF7;
+  /* text-shadow: 2px 2px 5px #cec5d6; */
+}
+
+
+/* Projects
+--------------------- */
+.projects {
+  background: #F5E3E0;
+}
+
+
+/* Work Experience
+--------------------- */
+.work-experience {
+  background: #E8B4BC;
+}
+
+
+/* Contact Info
+--------------------- */
+footer {
+  background: #343434;
+  color: #F7FFF7;
+}
