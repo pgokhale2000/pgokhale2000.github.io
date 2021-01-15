@@ -6,6 +6,8 @@ https://coolors.co/f5e3e0-e8b4bc-d282a6-6e4555-3a3238
 --------------------- */
 body {
   color: #3A3238;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -18,10 +20,21 @@ a {
   text-decoration: none;
   padding: 6px;
   border-radius: 4px;
+  display: inline-block;
 }
 
 a:hover {
   background: rgba(167, 186, 217, 70%)
+}
+
+h2 {
+  margin: 0;
+}
+
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
 /* Profile
