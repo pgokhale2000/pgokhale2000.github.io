@@ -12,6 +12,17 @@ img {
   width: 300px;
 }
 
+a {
+  color: black;
+  background: #bfd3f2;
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+a:hover {
+  background: rgba(167, 186, 217, 70%)
+}
 
 /* Profile
 --------------------- */
@@ -41,4 +52,13 @@ header {
 footer {
   background: #343434;
   color: #F7FFF7;
+}
+
+.reg-link {
+  color: #bfd3f2;
+  background: none;
+}
+.reg-link:hover {
+  background: none;
+  text-decoration: underline;
 }
