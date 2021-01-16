@@ -14,11 +14,11 @@ body {
 }
 
 img {
-  width: 300px;
+  width: 100px;
 }
 
 a {
-  color: black;
+  color: #3A3238;
   background: #bfd3f2;
   text-decoration: none;
   padding: 6px;
@@ -46,6 +46,10 @@ h2 {
   width: 800px;
   margin: 0 auto;
   padding: 60px 0;
+}
+
+.section-header {
+  font-size: 35px;
 }
 
 /* Profile
