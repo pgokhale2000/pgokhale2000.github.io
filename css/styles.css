@@ -56,17 +56,23 @@ header {
   /* text-shadow: 2px 2px 5px #cec5d6; */
 }
 
-
-/* Projects
+/* Education
 --------------------- */
-.projects {
-  background: #F5E3E0;
+.education {
+  background: #F7FFF7;
 }
-
 
 /* Work Experience
 --------------------- */
 .work-experience {
+  background: #F5E3E0;
+
+}
+
+
+/* Projects
+--------------------- */
+.projects {
   background: #E8B4BC;
 }
 
