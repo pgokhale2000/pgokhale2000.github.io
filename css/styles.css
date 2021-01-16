@@ -8,6 +8,9 @@ body {
   color: #3A3238;
   margin: 0;
   padding: 0;
+  font-family: 'Nunito', sans-serif;
+  line-height: 150%;
+  font-size: 17px;
 }
 
 img {
@@ -27,9 +30,17 @@ a:hover {
   background: rgba(167, 186, 217, 70%)
 }
 
+h1 {
+  font-size: 50px;
+}
+
 h2 {
   margin: 0;
 }
+
+/* h3 {
+  line-height: 0.2;
+} */
 
 .content-wrap {
   width: 800px;
