@@ -60,6 +60,10 @@ header {
   /* text-shadow: 2px 2px 5px #cec5d6; */
 }
 
+#self {
+  width: 300px;
+}
+
 /* Education
 --------------------- */
 .education {
