@@ -11,6 +11,7 @@ body {
   font-family: 'Nunito', sans-serif;
   line-height: 150%;
   font-size: 17px;
+  background: #fcfcf5;
 }
 
 img {
@@ -32,6 +33,7 @@ a:hover {
 
 h1 {
   font-size: 50px;
+  /* text-shadow: 2px 2px 5px #cec5d6; */
 }
 
 h2 {
@@ -56,18 +58,22 @@ h2 {
 --------------------- */
 header {
   background: #6E4555;
-  color: #F7FFF7;
-  /* text-shadow: 2px 2px 5px #cec5d6; */
+  color: #fcfcf5;
+  /* border-color: #343434;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 25px; */
 }
 
 #self {
-  width: 300px;
+  width: 250px;
+  border-radius: 30px;
 }
 
 /* Education
 --------------------- */
 .education {
-  background: #F7FFF7;
+  background: #fcfcf5;
 }
 
 /* Work Experience
@@ -89,7 +95,7 @@ header {
 --------------------- */
 footer {
   background: #343434;
-  color: #F7FFF7;
+  color: #fcfcf5;
 }
 
 .reg-link {
