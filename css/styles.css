@@ -4,8 +4,16 @@ https://coolors.co/f5e3e0-e8b4bc-d282a6-6e4555-3a3238
 
 /* Gloabl styles
 --------------------- */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  color: #3A3238;
+  color: #3A3038;
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
@@ -40,10 +48,6 @@ h2 {
   margin: 0;
 }
 
-/* h3 {
-  line-height: 0.2;
-} */
-
 .content-wrap {
   width: 800px;
   margin: 0 auto;
@@ -58,7 +62,7 @@ h2 {
 --------------------- */
 header {
   background: #6E4555;
-  color: #fcfcf5;
+  color: #FFFFEF;
   /* border-color: #343434;
   border-style: solid;
   border-width: 10px;
@@ -66,14 +70,17 @@ header {
 }
 
 #self {
-  width: 250px;
+  width: 200px;
   border-radius: 30px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 /* Education
 --------------------- */
 .education {
-  background: #fcfcf5;
+  background: #FFFFEF;
 }
 
 /* Work Experience
@@ -95,7 +102,7 @@ header {
 --------------------- */
 footer {
   background: #343434;
-  color: #fcfcf5;
+  color: #FFFFEF;
 }
 
 .reg-link {
