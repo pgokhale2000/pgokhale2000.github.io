@@ -90,6 +90,11 @@ header {
 
 }
 
+.company {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
 
 /* Projects
 --------------------- */
@@ -112,4 +117,11 @@ footer {
 .reg-link:hover {
   background: none;
   text-decoration: underline;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }

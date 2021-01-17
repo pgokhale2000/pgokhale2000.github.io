@@ -24,12 +24,19 @@
       <section class = "education">
         <div class="content-wrap">
           <h2 class="section-header">Education</h2>
+          <br>
           <!-- Copy this whole <section> block to add more schools. -->
           <section>
             <h3>Cornell University</h3>
-            <img src="images/cornell-logo.gif" alt="cornell logo">
-            <p>College of Engineering, Computer Science <br>
-            Bachelor of Science, December 2021</p>
+            <section class="company">
+              <div class="logo">
+                <img src="images/cornell-logo.gif" alt="cornell logo">
+              </div>
+              <div class="name">
+                <p>College of Engineering, Computer Science <br>
+                Bachelor of Science, December 2021</p>
+              </div>
+            </section>
             <ul>
               <li> Undergraduate Consultant: CS 1110 - Intro to Computer Using Python </li>
               <li> Undergraduate Consultant: CS 3110 - Data Structures and Functional Programming </li>
@@ -49,9 +56,15 @@
           <!-- Copy this whole <section> block to add more jobs. -->
           <section>
             <h3> Incoming Software Development Engineer Intern</h3>
-            <img src="images/aws-logo.png" alt="aws logo">
-            <p><i> Amazon Web Services</i><br>
-            Summer 2021 </p>
+            <section class = "company">
+              <div class="logo">
+                <img src="images/aws-logo.png" alt="aws logo">
+              </div>
+              <div class="name">
+                <p><i> Amazon Web Services</i><br>
+                Summer 2021 </p>
+              </div>
+            </section>
             <p> Stay tuned for more information! </p>
           </section>
           <br>
@@ -59,9 +72,15 @@
           <!-- Copy this whole <section> block to add more jobs. -->
           <section>
             <h3>Software Development Engineer in Test Intern</h3>
-            <img src="images/apple-logo.png" alt="apple logo">
-            <p><i> Apple </i><br>
-            May 2020 - August 2020 </p>
+            <section class="company">
+              <div class="logo">
+                <img src="images/apple-logo.png" alt="apple logo">
+              </div>
+              <div class="name">
+                <p><i> Apple </i><br>
+                May 2020 - August 2020 </p>
+              </div>
+            </section>
             <ul>
               <li>Debugged smoke tests for Apple’s consumer facing application for iOS</li>
               <li>Redesigned framework for a structure used in XCUITest client analytics testing</li>
@@ -73,11 +92,17 @@
 
           <section>
             <h3>Software Development Intern</h3>
-            <img src="images/commvault-logo.png" alt="commvault logo">
-            <p><i> Commvault Systems </i><br>
-            May 2019 - August 2019 </p>
+            <section class=company>
+              <div class="logo">
+                <img src="images/commvault-logo.png" alt="commvault logo">
+              </div>
+              <div class="name">
+                <p><i> Commvault Systems </i><br>
+                May 2019 - August 2019 </p>
+              </div>
+            </section>
             <ul>
-              <li>Programmed in React to build a Chrome Extension</li>
+              <li>Programmed in React.js to build a Chrome Extension</li>
               <li>Permitted users to construct comments on specified HTML elements on a site and save them to a third-party
               location with given login credentials </li>
             </ul>
@@ -126,7 +151,7 @@ submissions across graders, and send the grades and feedback back to Canvas in a
           <h2 class="section-header">Contact Me!</h2>
 
           <!-- Social media and contact links. Add or remove any networks. -->
-          <ul>
+          <ul class = "contact-list">
             <li><a class="reg-link" href="mailto:pg334@cornell.edu">pg334@cornell.edu</a></li>
             <li><a class="reg-link" href="https://www.linkedin.com/in/poojagokhale/">LinkedIn</a></li>
             <li><a class="reg-link" href="https://github.com/pgokhale2000">GitHub</a></li>
