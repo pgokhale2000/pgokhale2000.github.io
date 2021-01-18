@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pooja Gokhale</title>
+    <!-- Google font used - sans serif style -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+      <!-- ***********************  HEADER  *********************** -->
       <header>
         <div class="content-wrap">
           <h1>Pooja Gokhale</h1>
           <h2>Computer Science @ Cornell University College of Engineering 💻</h2>
+          <!-- this image has different size/rounded edges than logos -->
           <img id="self" src="images/self.jpg" alt="picture of myself">
           <p>Hello! I am a third year student at Cornell University’s College of Engineering pursuing a Bachelor of Science in Computer Science. I am an incoming SWE intern at Amazon Web Services for the Summer of 2021, and I am currently an undergraduate consultant at Cornell for CS 3110: Data Structures and Functional Programming. I am actively seeking software engineering opportunities. Feel free to check out my website and contact me using the links below! 😃</p>
         </div>
       </header>
 
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+      <!-- ******************  EDUCATION****************** -->
       <section class = "education">
+        <!-- content-wrap class used to wrap each section in correct position -->
         <div class="content-wrap">
           <h2 class="section-header">Education</h2>
           <br>
-          <!-- Copy this whole <section> block to add more schools. -->
           <section>
+            <!-- Cornell -->
             <h3>Cornell University</h3>
+            <!-- wrapped in section so grids can be used -->
             <section class="company">
               <div class="logo">
                 <img src="images/cornell-logo.gif" alt="cornell logo">
@@ -37,6 +41,7 @@
                 Bachelor of Science - December 2021</p>
               </div>
             </section>
+            <!-- Cornell Bullets-->
             <ul>
               <li> Undergraduate Consultant: CS 1110 - Intro to Computing Using Python </li>
               <li> Undergraduate Consultant: CS 3110 - Data Structures and Functional Programming </li>
@@ -47,13 +52,12 @@
         <!-- End of School block. -->
       </section>
 
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
+      <!-- *********************** EXPERIENCE  *********************** -->
       <section class = "work-experience">
         <div class="content-wrap">
           <h2 class="section-header">Experience</h2>
           <br>
-
-          <!-- Copy this whole <section> block to add more jobs. -->
+          <!-- AWS -->
           <section>
             <h3> Incoming Software Development Engineer Intern</h3>
             <section class = "company">
@@ -65,11 +69,12 @@
                 Summer 2021 </p>
               </div>
             </section>
+            <!-- TODO: Update after internship -->
             <p> Stay tuned for more information! </p>
           </section>
           <br>
 
-          <!-- Copy this whole <section> block to add more jobs. -->
+          <!-- Apple -->
           <section>
             <h3>Software Development Engineer in Test Intern</h3>
             <section class="company">
@@ -90,6 +95,7 @@
           </section>
           <br>
 
+          <!-- Commvault -->
           <section>
             <h3>Software Development Intern</h3>
             <section class=company>
@@ -108,18 +114,17 @@
             </ul>
           </section>
         </div>
-        <!-- End of Job block. -->
       </section>
 
 
 
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <!-- ********************  PROJECTS ********************* -->
       <section class = "projects">
         <div class="content-wrap">
           <h2 class="section-header">Projects</h2>
           <p>Here is an overview of some of my projects! More information can be found on <a href="https://github.com/pgokhale2000">GitHub</a>.</p>
 
-          <!-- Copy the whole <section> block to add more projects. -->
+          <!-- Monopoly Deal -->
           <section>
             <h3>Monopoly Deal</h3>
             <p>Constructed a CLI version of the popular card game ‘Monopoly Deal’ in functional programming (OCaml). Permitted 2 – 5 players to use various commands to draw cards, view their hands and piles, place cards in
@@ -128,6 +133,7 @@
           </section>
           <br>
 
+          <!-- Canvas Grading Extension -->
           <section>
             <h3>Canvas Grading Extension</h3>
             <p>Developed a React web app as an extension to Canvas, a learning management system used by Cornell. Worked for client Professor Curran Muhlberger (MATLAB professor) to devise an algorithm to distribute
@@ -136,21 +142,22 @@ submissions across graders, and send the grades and feedback back to Canvas in a
           </section>
           <br>
 
+          <!-- Bike Sharing Analysis -->
           <section>
             <h3>Bike Sharing Analysis</h3>
             <p>Preprocessed data on a SF Bay Area Bike share dataset using techniques including Generalized Low Rank Model imputation, one hot encodings, data filtering, and data correction using Google Maps API. Employed linear regression, regularizers, and decision/classification trees to predict the number of expected bike rides in a specified hour given the date, station, and weather. </p>
             <a href="https://github.com/pgokhale2000/Bike-Share-Analysis">View Project</a>
           </section>
         </div>
-        <!-- End of Project block. -->
       </section>
 
-      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <!-- *****************  CONTACT INFO ***************** -->
       <footer>
         <div class="content-wrap">
           <h2 class="section-header">Contact Me!</h2>
 
-          <!-- Social media and contact links. Add or remove any networks. -->
+          <!-- reg-link used for a link that should not look like a button
+          (all links from above with no class have button style) -->
           <ul class = "contact-list">
             <li><a class="reg-link" href="mailto:pg334@cornell.edu">pg334@cornell.edu</a></li>
             <li><a class="reg-link" href="https://www.linkedin.com/in/poojagokhale/">LinkedIn</a></li>

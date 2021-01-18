@@ -12,6 +12,11 @@ html {
   box-sizing: inherit;
 }
 
+/*  text throughout the page
+  - dark brown color
+  - sans serif font from Google fonts (refer to link in HTML)
+  - Background color irrelevant for now
+  - No margin or padding */
 body {
   color: #3A3038;
   margin: 0;
@@ -22,10 +27,14 @@ body {
   background: #fcfcf5;
 }
 
+/* Represents all company/school logos */
 img {
   width: 100px;
 }
 
+/* Default links on the page are designed to look like buttons
+  - Dark brown color
+  - Periwinkel background */
 a {
   color: #3A3238;
   background: #bfd3f2;
@@ -35,31 +44,36 @@ a {
   display: inline-block;
 }
 
+/* When button links are clicked, background should get slightly lighter */
 a:hover {
   background: rgba(167, 186, 217, 70%)
 }
 
+/* Main header on top with my name */
 h1 {
   font-size: 50px;
-  /* text-shadow: 2px 2px 5px #cec5d6; */
 }
 
+/* Section headers */
 h2 {
   margin: 0;
 }
 
+/* Wraps each section to position it correctly */
 .content-wrap {
   width: 800px;
   margin: 0 auto;
   padding: 60px 0;
 }
 
+/* All the h2s that are section headers (excludes about sectiion)*/
 .section-header {
   font-size: 35px;
 }
 
 /* Profile
 --------------------- */
+/* About section */
 header {
   background: #6E4555;
   color: #FFFFEF;
@@ -69,6 +83,7 @@ header {
   border-radius: 25px; */
 }
 
+/* Image of myself */
 #self {
   width: 200px;
   border-radius: 30px;
@@ -90,6 +105,7 @@ header {
 
 }
 
+/* Uses grids to place logos and company name side by side */
 .company {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -110,10 +126,13 @@ footer {
   color: #FFFFEF;
 }
 
+/* Non button looking links */
 .reg-link {
   color: #bfd3f2;
   background: none;
 }
+
+/* Non button looking links should underline when hovered on */
 .reg-link:hover {
   background: none;
   text-decoration: underline;
