@@ -61,7 +61,8 @@ h2 {
 
 /* Wraps each section to position it correctly */
 .content-wrap {
-  width: 800px;
+  max-width: 800px;
+  width: 85%;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -87,10 +88,8 @@ header {
 #self {
   width: 200px;
   border-radius: 30px;
-  float: left;
-  margin-right: 20px;
-  margin-top: 10px;
 }
+
 
 /* Education
 --------------------- */
@@ -103,12 +102,6 @@ header {
 .work-experience {
   background: #F5E3E0;
 
-}
-
-/* Uses grids to place logos and company name side by side */
-.company {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
 }
 
 
@@ -141,6 +134,45 @@ footer {
 .contact-list {
   list-style-type: none;
   padding: 0;
-  display: flex;
-  justify-content: space-between;
+}
+
+/* Responsive
+--------------------- */
+@media screen and (min-width: 750px){
+  #self {
+    width: 200px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  /* Uses grids to place logos and company name side by side */
+  .company {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+
+  .contact-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  #self {
+    margin-top: 30px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 0.9;
+  }
+
+  h2 {
+    line-height: 1.1;
+  }
+
+  .contact-list a {
+    padding: 5px;
+  }
 }
